@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Scissors, Beard, Spray, User } from 'lucide-react';
+import { Scissors, Briefcase, Droplet, User } from 'lucide-react';
 
 interface ServiceProps {
   icon: React.ReactNode;
@@ -76,7 +76,7 @@ const Services = () => {
             price="$30"
           />
           <ServiceCard
-            icon={<Beard size={28} />}
+            icon={<Briefcase size={28} />}
             title="Beard Trim & Shape"
             description="Expert beard shaping and styling to define your facial features."
             price="$25"
@@ -88,7 +88,7 @@ const Services = () => {
             price="$45"
           />
           <ServiceCard
-            icon={<Spray size={28} />}
+            icon={<Droplet size={28} />}
             title="Hair Treatment"
             description="Nourishing scalp treatments to promote healthy hair growth."
             price="$35"
@@ -100,7 +100,7 @@ const Services = () => {
             price="$20"
           />
           <ServiceCard
-            icon={<Beard size={28} />}
+            icon={<Briefcase size={28} />}
             title="Hot Towel Shave"
             description="Traditional straight razor shave with hot towel preparation."
             price="$40"
